@@ -17,7 +17,7 @@ namespace DataBasewpf
 
         public override string ToString()
         {
-            return username + " " + password + " " + eta + " " + sex_.ToString() ;
+            return username + " " + password + " " + eta + " " + sex_.ToString() + " Id: " + Id.ToString();
         }
     }
 
